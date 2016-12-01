@@ -1,0 +1,10 @@
+---
+default_confd_files: true
+#default_mods: $::profile::apache::params::default_mods
+default_vhost: true
+custom_config: {}
+vhosts: {}
+#include_ius: $::profile::apache::params::include_ius
+php: true
+php_package_name: php-
+#mod_php: $::profile::apache::params::mod_php

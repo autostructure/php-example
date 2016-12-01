@@ -1,0 +1,14 @@
+---
+#
+
+from: php:7.0-apache
+
+os: debian
+os_version: jessie
+
+image_name: autostructure/phpexample
+
+hiera-data: hieradata
+hiera-config: hiera.yaml
+
+puppet_agent_version: 1.8.1
